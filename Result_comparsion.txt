@@ -1,0 +1,32 @@
+With 0.05% equivalent Damping coefficient Dashpot
+
+
+
+
+Final Time Periods:  ['3.9387200000', '3.5857300000', '2.1821800000', '1.8661400000', '1.1748300000']
+Maximum Induced Base Shear = 281.1104 kN
+Maximum Top Displacement = 399.9128 mm
+MIDR for Story 1 = 1.8055 %
+MIDR for Story 2 = 1.9018 %
+MIDR for Story 3 = 1.7152 %
+MIDR for Story 4 = 1.4860 %
+MIDR for Story 5 = 1.2790 %
+MIDR for Story 6 = 1.1610 %
+MIDR for Story 7 = 1.0515 %
+MIDR for Story 8 = 0.8728 %
+MIDR ALL = 1.9018 %
+
+
+Without 0.05% equivalent Damping coefficient
+Final Time Periods:  ['3.9320900000', '3.5872500000', '2.1792500000', '1.8688500000', '1.1761800000']
+Maximum Induced Base Shear = 280.4433 kN
+Maximum Top Displacement = 413.0439 mm
+MIDR for Story 1 = 1.8569 %
+MIDR for Story 2 = 1.9570 %
+MIDR for Story 3 = 1.7722 %
+MIDR for Story 4 = 1.5403 %
+MIDR for Story 5 = 1.3271 %
+MIDR for Story 6 = 1.2007 %
+MIDR for Story 7 = 1.0882 %
+MIDR for Story 8 = 0.9060 %
+MIDR ALL = 1.9570 %

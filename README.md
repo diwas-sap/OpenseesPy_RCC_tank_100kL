@@ -1,6 +1,6 @@
-﻿# 100 kL RCC Elevated Water Tank — Seismic Model in OpenSeesPy
+﻿# 100 kL RCC Elevated Water Tank - Seismic Model in OpenSeesPy
 
-A three-dimensional finite-element model of a **100,000-litre reinforced-concrete (RCC) elevated water tank** built in [OpenSeesPy](https://openseespydoc.readthedocs.io/). The model reproduces the frame staging, the tank container, and the sloshing water, and supports **gravity, modal, pushover, and nonlinear time-history (NLTHA)** analyses — with an optional **Lead-Rubber-Bearing (LRB) base-isolation** layer that can be toggled on or off.
+A three-dimensional finite-element model of a **100,000-litre reinforced-concrete (RCC) elevated water tank** built in [OpenSeesPy](https://openseespydoc.readthedocs.io/). The model reproduces the frame staging, the tank container, and the sloshing water, and supports **gravity, modal, pushover, and nonlinear time-history (NLTHA)** analyses  with an optional **Lead-Rubber-Bearing (LRB) base-isolation** layer that can be toggled on or off.
 
 The project is aimed at studying the seismic response of elevated tanks and quantifying the benefit of base isolation, using ground-motion sets that span near-field and far-field records.
 
@@ -9,7 +9,7 @@ The project is aimed at studying the seismic response of elevated tanks and quan
 ## Highlights
 
 - **3-D fiber-section model** (`ndm = 3`, `ndf = 6`) built entirely from explicit node/element definitions, so every member is traceable.
-- **Housner two-mass water idealization** — impulsive and convective masses, with the convective (sloshing) mode captured by a spring + dashpot.
+- **Housner two-mass water idealization** - impulsive and convective masses, with the convective (sloshing) mode captured by a spring + dashpot.
 - **Optional base isolation** via the `LeadRubberX` element, switched with a single `LRB_inclusion` flag.
 - **Full analysis pipeline** — gravity, eigenvalue (mode shapes and periods), monotonic pushover in X and Y, and batch nonlinear time-history analysis.
 - **Automated result export** to CSV: base shear, overturning moment, inter-story drift, peak floor acceleration, and bearing displacement.
